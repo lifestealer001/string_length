@@ -6,8 +6,8 @@
     Returns:
         length of string */
 
-int func(String a){
-  return a.length;
+int func(String text){
+  return text.length;
 }
 void main() {
   print(func('salom'));// write your code here
