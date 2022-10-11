@@ -7,6 +7,16 @@
     Returns:
         shortest string
 */
+int func(String s1,s2){
+    int a,b;
+    a = s1.length;
+    b = s2.length;
+    if(a>b){
+  return b;
+    }else {
+      return a;
+    }
+}
 void main() {
-  // write your code here
+  print(func('salomkk','salom2'));// write your code here
 }

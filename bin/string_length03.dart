@@ -7,6 +7,9 @@
     Returns:
         True or False
 */
+bool func(String a,b){
+  return a.length == b.length;
+}
 void main() {
-  // write your code here
+  print(func('salom','salom2'));// write your code here
 }

@@ -6,6 +6,10 @@
     Returns:
         True or False
      */
+bool func(String text){
+
+  return text.length%2 == 0;
+}
 void main() {
-  // write your code here
+  print(func('salom'));// write your code here
 }

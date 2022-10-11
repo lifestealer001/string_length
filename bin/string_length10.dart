@@ -7,6 +7,9 @@
         bool: answer
 */
 
+String func(String s){
+  return s[0];
+}
 void main() {
-  // write your code here
+  print(func('salom'));// write your code here
 }
