@@ -11,5 +11,5 @@ String func(String s){
   return s[0];
 }
 void main() {
-  print(func('salom'));// write your code here
+  print(func('ksalom'));// write your code here
 }

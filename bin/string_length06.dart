@@ -13,10 +13,11 @@ int func(String s1,s2){
     b = s2.length;
     if(a>b){
   return b;
-    }else {
+    }else if(b>a) {
       return a;
     }
+    return a;
 }
 void main() {
-  print(func('salomkk','salom2'));// write your code here
+  print(func('salom2','salom2'));// write your code here
 }
